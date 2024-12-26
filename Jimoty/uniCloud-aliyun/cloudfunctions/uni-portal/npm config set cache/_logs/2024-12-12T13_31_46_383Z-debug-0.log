@@ -1,0 +1,37 @@
+0 verbose cli G:\HBuilderX\plugins\node\node.exe G:\HBuilderX\plugins\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.5.0
+2 info using node@v18.20.0
+3 timing npm:load:whichnode Completed in 2ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:G:\HBuilderX\plugins\npm\node_modules\npm\npmrc Completed in 1ms
+6 timing config:load:builtin Completed in 1ms
+7 timing config:load:cli Completed in 1ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:E:\TST\linbaofang\Jimoty\uniCloud-aliyun\cloudfunctions\uni-portal\.npmrc Completed in 0ms
+10 timing config:load:project Completed in 4ms
+11 timing config:load:file:C:\Users\铜钱\.npmrc Completed in 1ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:G:\nodejs\etc\npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:setEnvs Completed in 1ms
+16 timing config:load Completed in 9ms
+17 timing npm:load:configload Completed in 9ms
+18 timing config:load:flatten Completed in 2ms
+19 timing npm:load:mkdirpcache Completed in 0ms
+20 timing npm:load:mkdirplogs Completed in 1ms
+21 verbose title npm ls
+22 verbose argv "ls"
+23 timing npm:load:setTitle Completed in 1ms
+24 timing npm:load:display Completed in 0ms
+25 verbose logfile logs-max:10 dir:E:\TST\linbaofang\Jimoty\uniCloud-aliyun\cloudfunctions\uni-portal\npm config set cache\_logs\2024-12-12T13_31_46_383Z-
+26 verbose logfile E:\TST\linbaofang\Jimoty\uniCloud-aliyun\cloudfunctions\uni-portal\npm config set cache\_logs\2024-12-12T13_31_46_383Z-debug-0.log
+27 timing npm:load:logFile Completed in 8ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 41ms
+31 timing arborist:ctor Completed in 1ms
+32 silly logfile done cleaning log files
+33 timing command:ls Completed in 136ms
+34 verbose exit 0
+35 timing npm Completed in 213ms
+36 info ok

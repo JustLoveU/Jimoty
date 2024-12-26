@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "下架通知",
+  "usingComponents": {
+    "uni-section": "../../uni_modules/uni-section/components/uni-section/uni-section",
+    "uni-list-item": "../../uni_modules/uni-list/components/uni-list-item/uni-list-item"
+  }
+}

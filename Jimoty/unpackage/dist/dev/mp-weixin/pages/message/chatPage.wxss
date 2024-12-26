@@ -1,0 +1,242 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.container.data-v-9e88ffa0 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow-y: hidden;
+}
+.content-center.data-v-9e88ffa0 {
+  height: 100%;
+}
+.poup-box.data-v-9e88ffa0 {
+  padding: 30rpx;
+}
+.poup-box .choose.data-v-9e88ffa0 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.poup-box .choose .choose-item.data-v-9e88ffa0 {
+  padding: 20rpx;
+  border: 1px solid #b8b8b8;
+  border-radius: 20px;
+  width: 200rpx;
+  text-align: center;
+}
+.poup-box .choose .comentActive.data-v-9e88ffa0 {
+  border: 1px solid #259d61;
+  color: #259d61;
+}
+.poup-box .poup-input.data-v-9e88ffa0 {
+  margin-top: 40rpx;
+}
+.chat-good-status.data-v-9e88ffa0 {
+  width: 100%;
+}
+.good-status.data-v-9e88ffa0 {
+  padding: 20rpx;
+  background-color: #f6f7fb;
+  width: 100%;
+}
+.good-status .no-buy .no-buy-title.data-v-9e88ffa0 {
+  display: flex;
+  justify-content: center;
+  font-size: 32rpx;
+  line-height: 50rpx;
+}
+.good-status .no-buy .no-buy-sub.data-v-9e88ffa0 {
+  display: flex;
+  justify-content: center;
+  font-size: 26rpx;
+  color: #7e7f7f;
+  line-height: 50rpx;
+}
+.good-status .no-buy .no-buy-btu.data-v-9e88ffa0 {
+  margin-top: 20rpx;
+  width: 100%;
+  height: 70rpx;
+  line-height: 70rpx;
+  text-align: center;
+  border: 1px solid #56a682;
+  border-radius: 10rpx;
+  color: #56a682;
+}
+.good.data-v-9e88ffa0 {
+  padding: 20rpx;
+  width: 100%;
+  display: flex;
+  background-color: white;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+}
+.good .good-img.data-v-9e88ffa0 {
+  width: 100rpx;
+  height: 100rpx;
+}
+.good .good-right.data-v-9e88ffa0 {
+  margin-left: 20rpx;
+}
+.good .good-right .good-title.data-v-9e88ffa0 {
+  font-weight: 600;
+  font-size: 30rpx;
+}
+.good .good-right .good-price.data-v-9e88ffa0 {
+  font-size: 26rpx;
+}
+.Css-chat .scroll-view.data-v-9e88ffa0 {
+  height: 65vh;
+}
+.Css-chat .scroll-view .chat-main.data-v-9e88ffa0 {
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  display: flex;
+  flex-direction: column;
+}
+.Css-chat .scroll-view .chat-ls .chat-time.data-v-9e88ffa0 {
+  font-size: 24rpx;
+  color: rgba(39, 40, 50, 0.3);
+  line-height: 34rpx;
+  padding: 20rpx 0;
+  text-align: center;
+  display: flex;
+  white-space: nowrap;
+}
+.Css-chat .scroll-view .chat-ls .xitong.data-v-9e88ffa0 {
+  width: 100%;
+  max-height: 200rpx;
+  padding: 20rpx;
+  text-align: center;
+  border: 1px solid #bcbcbc;
+  background-color: white;
+  border-radius: 20px;
+  margin-bottom: 20rpx;
+}
+.Css-chat .scroll-view .chat-ls .msg-m.data-v-9e88ffa0 {
+  display: flex;
+  padding: 20rpx 0;
+}
+.Css-chat .scroll-view .chat-ls .msg-m .user-img.data-v-9e88ffa0 {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 20rpx;
+}
+.Css-chat .scroll-view .chat-ls .msg-m .message.data-v-9e88ffa0 {
+  max-width: 500rpx;
+  flex: auto;
+  position: relative;
+}
+.Css-chat .scroll-view .chat-ls .msg-m .message .chat-time.data-v-9e88ffa0 {
+  position: absolute;
+  bottom: -10rpx;
+}
+.Css-chat .scroll-view .chat-ls .msg-m .message .time-left.data-v-9e88ffa0 {
+  transform: translateX(120%);
+  right: 0%;
+}
+.Css-chat .scroll-view .chat-ls .msg-m .message .time-right.data-v-9e88ffa0 {
+  transform: translateX(-120%);
+  left: 0%;
+}
+.Css-chat .scroll-view .chat-ls .msg-m .message .img-left.data-v-9e88ffa0 {
+  transform: translateX(-160rpx);
+  right: 0%;
+}
+.Css-chat .scroll-view .chat-ls .msg-m .message .img-right.data-v-9e88ffa0 {
+  transform: translateX(160rpx);
+  left: 0%;
+}
+.Css-chat .scroll-view .chat-ls .msg-m .msg-text.data-v-9e88ffa0 {
+  font-size: 32rpx;
+  color: #272832;
+  line-height: 44rpx;
+  padding: 18rpx 24rpx;
+}
+.Css-chat .scroll-view .chat-ls .msg-m .msg-img.data-v-9e88ffa0 {
+  max-width: 250rpx;
+  border-radius: 20rpx;
+}
+.Css-chat .scroll-view .chat-ls .msg-left.data-v-9e88ffa0 {
+  flex-direction: row;
+}
+.Css-chat .scroll-view .chat-ls .msg-left .msg-text.data-v-9e88ffa0 {
+  margin-left: 16rpx;
+  background-color: #f6f7fb;
+  border-radius: 0rpx 20rpx 20rpx 20rpx;
+}
+.Css-chat .scroll-view .chat-ls .msg-left .msg-img.data-v-9e88ffa0 {
+  margin-left: 16rpx;
+}
+.Css-chat .scroll-view .chat-ls .msg-right.data-v-9e88ffa0 {
+  flex-direction: row-reverse;
+}
+.Css-chat .scroll-view .chat-ls .msg-right .msg-text.data-v-9e88ffa0 {
+  margin-right: 16rpx;
+  background-color: #79e035;
+  border-radius: 20rpx 0rpx 20rpx 20rpx;
+}
+.Css-chat .scroll-view .chat-ls .msg-right .msg-img.data-v-9e88ffa0 {
+  transform: translateX(95%);
+}
+.Css-input .message-input.data-v-9e88ffa0 {
+  padding: 25rpx 25rpx 50rpx 25rpx;
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+  background-color: #f6f7fb;
+}
+.Css-input .message-input .my-input-box.data-v-9e88ffa0 {
+  width: 100%;
+}
+.Css-input .message-input .my-input-box .my-input.data-v-9e88ffa0 {
+  width: 95%;
+  background-color: white;
+  padding: 20rpx;
+}
+.Css-input .message-input .message-bottom.data-v-9e88ffa0 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20rpx;
+}
+.Css-input .message-input .message-bottom-left.data-v-9e88ffa0 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 130rpx;
+}
+.Css-input .message-input .message-bottom-right.data-v-9e88ffa0 {
+  width: 120rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  text-align: center;
+  background-color: #219f62;
+  border-radius: 10rpx;
+  color: white;
+}
+.Css-input .message-input .message-bottom-right.data-v-9e88ffa0:active {
+  opacity: 0.7;
+}

@@ -1,0 +1,105 @@
+{
+	"name": "Jimoty",
+	"appid": "__UNI__61206C3",
+	"description": "jimoty商城",
+	"versionName": "1.0.0",
+	"versionCode": "100",
+	"transformPx": false,
+	"app-plus": {
+		"usingComponents": true,
+		"nvueStyleCompiler": "uni-app",
+		"compilerVersion": 3,
+		"splashscreen": {
+			"alwaysShowBeforeRender": true,
+			"waiting": true,
+			"autoclose": true,
+			"delay": 0
+		},
+		"modules": {},
+		"distribute": {
+			"android": {
+				"permissions": [
+					"<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
+					"<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
+					"<uses-permission android:name=\"android.permission.VIBRATE\"/>",
+					"<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
+					"<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
+					"<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
+					"<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+					"<uses-permission android:name=\"android.permission.CAMERA\"/>",
+					"<uses-permission android:name=\"android.permission.GET_ACCOUNTS\"/>",
+					"<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>",
+					"<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
+					"<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
+					"<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
+					"<uses-feature android:name=\"android.hardware.camera\"/>",
+					"<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>"
+				]
+			},
+			"ios": {},
+			"sdkConfigs": {
+				"push": {
+					"unipush": null
+				},
+				"maps": {
+					"amap": {
+						"name": "",
+						"appkey_ios": "",
+						"appkey_android": ""
+					}
+				}
+			}
+		}
+	},
+	"quickapp": {},
+	"mp-weixin": {
+		"appid": "wx593287587cccdf0f", // 我：wx3bb83933eae376cb :"9907cc82799c5227b901afce1fb70f12"  // "wx0452efcda925733d" :"68069b9bfd8faa47f27d08d3e7ee2ab8"    // wx593287587cccdf0f  :41fb92f13d1fb000b74b8f90392d9478
+		"setting": {
+			"urlCheck": false,
+			"minified": true,
+			"postcss": true
+		},
+		"plugins": {
+
+		},
+		"usingComponents": true,
+		"optimization": {
+			"subPackages": true
+		},
+		"permission": {
+			"scope.userLocation": {
+				"desc": "您的位置将用于小程序的位置效果展示和搜索"
+			}
+		}
+	},
+	"mp-alipay": {
+		"usingComponents": true
+	},
+	"mp-baidu": {
+		"usingComponents": true
+	},
+	"mp-toutiao": {
+		"usingComponents": true
+	},
+	"uniStatistics": {
+		"enable": false
+	},
+	"vueVersion": "3",
+	"h5": {
+		"sdkConfigs": {
+			"maps": {
+				"amap": {
+					"key": "28703a230ffaf84afeffc19b3f20a0a6",
+					"securityJsCode": "",
+					"serviceHost": ""
+				}
+			}
+		},
+		"router": {
+			"base": "/h5/"
+		},
+		"title": "jimoty"
+	}
+
+
+}

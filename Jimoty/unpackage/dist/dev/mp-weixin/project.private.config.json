@@ -1,0 +1,1011 @@
+{
+  "description": "项目私有配置文件。此文件中的内容将覆盖 project.config.json 中的相同字段。项目的改动优先同步到此文件中。详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html",
+  "projectname": "Jimoty",
+  "setting": {
+    "compileHotReLoad": true,
+    "skylineRenderEnable": true,
+    "preloadBackgroundData": false,
+    "urlCheck": false
+  },
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/home/reback_notice",
+          "pathName": "pages/home/reback_notice",
+          "query": "postId=673b35ddf2949ce0c7f7fefb",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/home/reback_notice",
+          "pathName": "pages/home/reback_notice",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/demo/demo",
+          "pathName": "pages/demo/demo",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/search/search",
+          "pathName": "pages/search/search",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "doc/userProtocol/userProtocol",
+          "pathName": "doc/userProtocol/userProtocol",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/submit/resubmit/detailpage5",
+          "pathName": "pages/submit/resubmit/detailpage5",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/home/notice",
+          "pathName": "pages/home/notice",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "uni_modules/uni-id-pages/pages/userinfo/deactivate/deactivate",
+          "pathName": "uni_modules/uni-id-pages/pages/userinfo/deactivate/deactivate",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/home/home",
+          "pathName": "pages/home/home",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/submit/resubmit/detailpage3",
+          "pathName": "pages/submit/resubmit/detailpage3",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/my/notice",
+          "pathName": "pages/my/notice",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/search/search",
+          "pathName": "pages/search/search",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/jimoty_category/add",
+          "pathName": "pages/jimoty_category/add",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/submit/map",
+          "pathName": "pages/submit/map",
+          "query": "index=1",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/my/myDetail",
+          "pathName": "pages/my/myDetail",
+          "query": "userId=66f7e8b1466d417f9459c774",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/my/pointBuy/pointBuyDetail",
+          "pathName": "pages/my/pointBuy/pointBuyDetail",
+          "query": "daojuType=0",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/message/chatPage",
+          "pathName": "pages/message/chatPage",
+          "query": "userId=66f1918e286f7cec14cf68bf&friendId=6726ec43e0ec19029c5ffaa6&postId=672778cd89bd27450b598427",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/search/search",
+          "pathName": "pages/search/search",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/message/chatPage",
+          "pathName": "pages/message/chatPage",
+          "query": "chatId=6726ecf186206611b48a985a",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/home/detail",
+          "pathName": "pages/home/detail",
+          "query": "postId=671a745b09664c3a83b0ad56",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/my/feedBack",
+          "pathName": "pages/my/feedBack",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/demo/demo",
+          "pathName": "pages/demo/demo",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/message/message",
+          "pathName": "pages/message/message",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/search/search",
+          "pathName": "pages/search/search",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/my/notice",
+          "pathName": "pages/my/notice",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/home/detail",
+          "pathName": "pages/home/detail",
+          "query": "postId=671a745b09664c3a83b0ad5",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/my/follow",
+          "pathName": "pages/my/follow",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/my/pointBuy/pointBuy",
+          "pathName": "pages/my/pointBuy/pointBuy",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/message/chatPage",
+          "pathName": "pages/message/chatPage",
+          "query": "chatId=6700189809664c3a83b56ce2",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/my/myDetail",
+          "pathName": "pages/my/myDetail",
+          "query": "userId=66f1918e286f7cec14cf68bf",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/message/message",
+          "pathName": "pages/message/message",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/submit/resubmit/detailpage2",
+          "pathName": "pages/submit/resubmit/detailpage2",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/submit/camera",
+          "pathName": "pages/submit/camera",
+          "query": "images=%5B%5D",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/submit/resubmit/detailpage1",
+          "pathName": "pages/submit/resubmit/detailpage1",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/submit/resubmit/detailpage5",
+          "pathName": "pages/submit/resubmit/detailpage5",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/home/notice",
+          "pathName": "pages/home/notice",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/submit/resubmit/detailpage1",
+          "pathName": "pages/submit/resubmit/detailpage1",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/submit/resubmit/detailpage1",
+          "pathName": "pages/submit/resubmit/detailpage1",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/my/follow",
+          "pathName": "pages/my/follow",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/home/notice",
+          "pathName": "pages/home/notice",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/message/message",
+          "pathName": "pages/message/message",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/my/feedBack",
+          "pathName": "pages/my/feedBack",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/demo/demo",
+          "pathName": "pages/demo/demo",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/my/point",
+          "pathName": "pages/my/point",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/message/chatPage",
+          "pathName": "pages/message/chatPage",
+          "query": "chatId=670a950d816a3ffb2da2daf6",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/home/categoryPage",
+          "pathName": "pages/home/categoryPage",
+          "query": "categoryId=66f04609eef9cba934a06332&name=%E9%97%B2%E7%BD%AE",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/message/chatPage",
+          "pathName": "pages/message/chatPage",
+          "query": "chatId=670a950d816a3ffb2da2daf6",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/message/chatPage",
+          "pathName": "pages/message/chatPage",
+          "query": "friendId=66f4e3280d2b31998c2236c6&postId=67052b9f2eea65469bf3352a",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/message/chatPage",
+          "pathName": "pages/message/chatPage",
+          "query": "chatId=670a950d816a3ffb2da2daf6",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/submit/resubmit/detailpage1",
+          "pathName": "pages/submit/resubmit/detailpage1",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/submit/resubmit/detailpage5",
+          "pathName": "pages/submit/resubmit/detailpage5",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/my/draft",
+          "pathName": "pages/my/draft",
+          "query": "index=1",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/message/chatPage",
+          "pathName": "pages/message/chatPage",
+          "query": "chatId=670a950d816a3ffb2da2daf6",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/home/detail",
+          "pathName": "pages/home/detail",
+          "query": "postId=670a3d0489bd27450bdc4037",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/submit/resubmit/detailpage5",
+          "pathName": "pages/submit/resubmit/detailpage5",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/my/myDetail",
+          "pathName": "pages/my/myDetail",
+          "query": "userId=66f4e3280d2b31998c2236c6",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/my/buy",
+          "pathName": "pages/my/buy",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/message/message",
+          "pathName": "pages/message/message",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/my/myDetail",
+          "pathName": "pages/my/myDetail",
+          "query": "userId=66f1918e286f7cec14cf68bf",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "uni_modules/uni-id-pages/pages/login/login-withoutpwd",
+          "pathName": "uni_modules/uni-id-pages/pages/login/login-withoutpwd",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "uni_modules/uni-pay/pages/success/success",
+          "pathName": "uni_modules/uni-pay/pages/success/success",
+          "query": "out_trade_no=jimoty17270990631932667884-1&order_no=jimoty17270990631932667884&pay_date=1727099082757&total_fee=1&adpid=1000000001&return_url=%2Fpages%2Forder-detail%2Forder-detail&main_color=",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/order-detail/order-detail",
+          "pathName": "pages/order-detail/order-detail",
+          "query": "out_trade_no=jimoty17270978651250822073-1&order_no=jimoty17270978651250822073",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/jimoty_category/add",
+          "pathName": "pages/jimoty_category/add",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/my/my",
+          "pathName": "pages/my/my",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/my/pointBuy/pointBuyDetail",
+          "pathName": "pages/my/pointBuy/pointBuyDetail",
+          "query": "daojuType=2",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/my/pointBuy/pointBuyDetail",
+          "pathName": "pages/my/pointBuy/pointBuyDetail",
+          "query": "daojuType=1",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/my/pointBuy/pointBuyDetail",
+          "pathName": "pages/my/pointBuy/pointBuyDetail",
+          "query": "daojuType=1",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/demo/demo",
+          "pathName": "pages/demo/demo",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "uni_modules/uni-id-pages/pages/userinfo/realname-verify/realname-verify",
+          "pathName": "uni_modules/uni-id-pages/pages/userinfo/realname-verify/realname-verify",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/realAuthentication/realAuthentication",
+          "pathName": "pages/realAuthentication/realAuthentication",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/my/notice",
+          "pathName": "pages/my/notice",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/submit/map",
+          "pathName": "pages/submit/map",
+          "query": "index=1",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/my/member",
+          "pathName": "pages/my/member",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/my/pointBuy/pointBuy",
+          "pathName": "pages/my/pointBuy/pointBuy",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/submit/otherDataPage",
+          "pathName": "pages/submit/otherDataPage",
+          "query": "index=2",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/message/chatPage",
+          "pathName": "pages/message/chatPage",
+          "query": "userId=66dd41688b0da457589c3fb7&friendId=66dd50c889bd27450b3aebe1&postId=66de92229755e3b8e7a536af",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/my/pointBuy/pointBuy",
+          "pathName": "pages/my/pointBuy/pointBuy",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/my/comment",
+          "pathName": "pages/my/comment",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/my/point",
+          "pathName": "pages/my/point",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/message/chatPage",
+          "pathName": "pages/message/chatPage",
+          "query": "userId=66dd50c889bd27450b3aebe1&friendId=66dd41688b0da457589c3fb7&postId=66e07ed6337a9f907c482ee8",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/message/chatPage",
+          "pathName": "pages/message/chatPage",
+          "query": "userId=66dd41688b0da457589c3fb7&friendId=66dd50c889bd27450b3aebe1&postId=66de92229755e3b8e7a536af",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/home/detail",
+          "pathName": "pages/home/detail",
+          "query": "postId=66de92229755e3b8e7a536af",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/search/search",
+          "pathName": "pages/search/search",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/home/notice",
+          "pathName": "pages/home/notice",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/demo/demo",
+          "pathName": "pages/demo/demo",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/home/notice",
+          "pathName": "pages/home/notice",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/my/point",
+          "pathName": "pages/my/point",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/my/member",
+          "pathName": "pages/my/member",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/home/detail",
+          "pathName": "pages/home/detail",
+          "query": "postId=66e18070337a9f907c606496",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/message/message",
+          "pathName": "pages/message/message",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/message/chatPage",
+          "pathName": "pages/message/chatPage",
+          "query": "userId=66dd50c889bd27450b3aebe1&friendId=66dd41688b0da457589c3fb7&postId=66ddba709755e3b8e7929181",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/home/notice",
+          "pathName": "pages/home/notice",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/search/search",
+          "pathName": "pages/search/search",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/home/home",
+          "pathName": "pages/home/home",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/search/search",
+          "pathName": "pages/search/search",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/my/draft",
+          "pathName": "pages/my/draft",
+          "query": "index=2",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/my/follow",
+          "pathName": "pages/my/follow",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/message/message",
+          "pathName": "pages/message/message",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/submit/resubmit/detailpage5",
+          "pathName": "pages/submit/resubmit/detailpage5",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/message/chatPage",
+          "pathName": "pages/message/chatPage",
+          "query": "userId=66dd41688b0da457589c3fb7&friendId=66dd50c889bd27450b3aebe1&postId=66dd531ee0ec19029c52e609",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/message/chatPage",
+          "pathName": "pages/message/chatPage",
+          "query": "userId=66dd41688b0da457589c3fb7&friendId=66dd41688b0da457589c3fb7&postId=66dd43f2a7c4325060fed548",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/message/chatPage",
+          "pathName": "pages/message/chatPage",
+          "query": "userId=66c163db89bd273fb3f078ae&friendId=66c163db89bd273fb3f078ae&postId=66dc6040bd0220786d9e036f",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/submit/resubmit/detailpage1",
+          "pathName": "pages/submit/resubmit/detailpage1",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/submit/datapage",
+          "pathName": "pages/submit/datapage",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/jimoty_category/add",
+          "pathName": "pages/jimoty_category/add",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/search/search",
+          "pathName": "pages/search/search",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/my/draft",
+          "pathName": "pages/my/draft",
+          "query": "index=0",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/my/draft",
+          "pathName": "pages/my/draft",
+          "query": "index=0",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/my/draft",
+          "pathName": "pages/my/draft",
+          "query": "index=1",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/submit/map",
+          "pathName": "pages/submit/map",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/my/comment",
+          "pathName": "pages/my/comment",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/message/chatPage",
+          "pathName": "pages/message/chatPage",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/message/message",
+          "pathName": "pages/message/message",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/home/detail",
+          "pathName": "pages/home/detail",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/submit/map",
+          "pathName": "pages/submit/map",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/submit/camera",
+          "pathName": "pages/submit/camera",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/submit/resubmit/detailpage4",
+          "pathName": "pages/submit/resubmit/detailpage4",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/submit/resubmit/detailpage3",
+          "pathName": "pages/submit/resubmit/detailpage3",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/submit/resubmit/detailpage2",
+          "pathName": "pages/submit/resubmit/detailpage2",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/submit/resubmit/detailpage1",
+          "pathName": "pages/submit/resubmit/detailpage1",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/submit/resubmit/detailpage1",
+          "pathName": "pages/submit/resubmit/detailpage1",
+          "query": "index=1",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/submit/submit",
+          "pathName": "pages/submit/submit",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/message/noticeMessage",
+          "pathName": "pages/message/noticeMessage",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/message/orderStep",
+          "pathName": "pages/message/orderStep",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/my/mydeal/business",
+          "pathName": "pages/my/mydeal/business",
+          "query": "type=1",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "uni_modules/uni-pay/pages/pay-desk/pay-desk",
+          "pathName": "uni_modules/uni-pay/pages/pay-desk/pay-desk",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "uni_modules/uni-pay/pages/ad-interactive-webview/ad-interactive-webview",
+          "pathName": "uni_modules/uni-pay/pages/ad-interactive-webview/ad-interactive-webview",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/my/myDetail",
+          "pathName": "pages/my/myDetail",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/message/addAddress",
+          "pathName": "pages/message/addAddress",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/message/address",
+          "pathName": "pages/message/address",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/submit/submit",
+          "pathName": "pages/submit/submit",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/demo/demo",
+          "pathName": "pages/demo/demo",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/message/order",
+          "pathName": "pages/message/order",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/grid/grid",
+          "pathName": "pages/grid/grid",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/chat/index",
+          "pathName": "pages/chat/index",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/home/detail",
+          "pathName": "pages/home/detail",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/message/chatPage",
+          "pathName": "pages/message/chatPage",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/home/home",
+          "pathName": "pages/home/home",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/submit/submit",
+          "pathName": "pages/submit/submit",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/message/message",
+          "pathName": "pages/message/message",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/my/my",
+          "pathName": "pages/my/my",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/ucenter/ucenter",
+          "pathName": "pages/ucenter/ucenter",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        }
+      ]
+    }
+  },
+  "libVersion": "3.6.1"
+}

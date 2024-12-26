@@ -1,0 +1,52 @@
+// 文档教程: https://uniapp.dcloud.net.cn/uniCloud/schema
+{
+	"bsonType": "object",
+	"required": ["daoUserId", "daojuType"],
+	"permission": {
+		"read": "auth.uid != null",
+		"create": "auth.uid != null",
+		"update": "auth.uid != null",
+		"delete": "auth.uid != null"
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"daoUserId": {
+			"title": "道具所属者uid",
+			"bsonType": "string",
+			"description": "道具所属者uid，参考 uni-id-users 表",
+			"foreignKey": "uni-id-users._id",
+			"defaultValue": {
+				"$env": "uid"
+			}
+		},
+		"daojuType": {
+			"title": "道具类型",
+			"bsonType": "int",
+			"description": "0置顶，1高亮，2刷新,3定期刷新"
+		},
+		"daojuNum": {
+			"title": "道具数量",
+			"bsonType": "int",
+			"description": "道具数量",
+			"defaultValue": 0
+		},
+		"last_use_date": {
+			"title": "最后一次使用的时间",
+			"bsonType": "timestamp",
+			"description": "最后一次使用的时间",
+			"defaultValue": {
+				"$env": "now"
+			}
+		},
+		"create_date": {
+			"title": "创建道具的时间",
+			"bsonType": "timestamp",
+			"description": "创建道具的时间",
+			"defaultValue": {
+				"$env": "now"
+			}
+		}
+	}
+}

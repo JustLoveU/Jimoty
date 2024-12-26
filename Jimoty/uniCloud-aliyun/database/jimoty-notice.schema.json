@@ -1,0 +1,58 @@
+// 文档教程: https://uniapp.dcloud.net.cn/uniCloud/schema
+{
+	"bsonType": "object",
+	"required": ["send", "receive", "type"],
+	"permission": {
+		"read": true,
+		"create": "auth.uid != null",
+		"update": "auth.uid != null",
+		"delete": "auth.uid != null"
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"type": {
+			"title": "通知类型",
+			"description": "通知类型(0系统消息1聊天消息2关注消息,3评论消息,4收藏消息5.关注用户上架商品消息,6商品上架消息,7过期下架的消息)",
+			"bsonType": "int"
+		},
+		"sendPeople": {
+			"title": "发送者",
+			"description": "发送者",
+			"bsonType": "string",
+			"foreignKey": "uni-id-users._id"
+		},
+		"receive": {
+			"title": "接收者",
+			"description": "接收者",
+			"bsonType": "string",
+			"foreignKey": "uni-id-users._id"
+		},
+		"message": {
+			"title": "消息",
+			"description": "消息",
+			"bsonType": "string",
+			"foreignKey": "jimoty-post._id"
+		},
+		"otherMessage": {
+			"title": "其他消息",
+			"description": "其他消息",
+			"bsonType": "string",
+			"foreignKey": "jimoty-category._id"
+		},
+		"status": {
+			"title": "消息状态",
+			"description": "消息状态(已读，未读)",
+			"bsonType": "bool",
+			"defaultValue": false
+		},
+		"create_date": {
+			"bsonType": "timestamp",
+			"description": "消息发送时间戳",
+			"defaultValue": {
+				"$env": "now"
+			}
+		}
+	}
+}

@@ -1,0 +1,7 @@
+{
+  "name": "jimoty-dao-use",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

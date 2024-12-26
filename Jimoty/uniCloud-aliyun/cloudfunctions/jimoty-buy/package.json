@@ -1,0 +1,7 @@
+{
+  "name": "jimoty-buy",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

@@ -1,0 +1,47 @@
+// 文档教程: https://uniapp.dcloud.net.cn/uniCloud/schema
+{
+	"bsonType": "object",
+	"required": ["userId", "positon_condition"],
+	"permission": {
+		"read": "auth.uid != null",
+		"create": "auth.uid != null",
+		"update": "doc.userId == auth.uid",
+		"delete": "doc.userId == auth.uid"
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"userId": {
+			"title": "搜索者",
+			"description": "搜索者",
+			"bsonType": "string",
+			"foreignKey": "uni-id-users._id",
+			"defaultValue": {
+				"$env": "uid"
+			}
+		},
+		"positon_condition": {
+			"title": "地理位置条件",
+			"description": "地理位置条件(包含address,point,length)",
+			"bsonType": "object"
+		},
+		"category_condition": {
+			"title": "类目条件",
+			"description": "类目条件",
+			"foreignKey": "jimoty-category._id"
+		},
+		"text_condition": {
+			"title": "搜索关键字",
+			"description": "搜索关键字",
+			"bsonType": "string"
+		},
+		"create_date": {
+			"bsonType": "timestamp",
+			"description": "发送时间戳",
+			"forceDefaultValue": {
+				"$env": "now"
+			}
+		}
+	}
+}

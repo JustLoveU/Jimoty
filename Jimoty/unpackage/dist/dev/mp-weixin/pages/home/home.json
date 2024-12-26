@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "首页",
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 80,
+  "usingComponents": {
+    "uni-icons": "../../uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "home-goods": "../../components/homeGoods/homeGoods",
+    "uni-load-more": "../../uni_modules/uni-load-more/components/uni-load-more/uni-load-more",
+    "home-skeleton": "./skeleton/homeSkeleton"
+  }
+}

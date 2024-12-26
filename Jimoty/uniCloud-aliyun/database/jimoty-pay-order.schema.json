@@ -1,0 +1,89 @@
+// 文档教程: https://uniapp.dcloud.net.cn/uniCloud/schema
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": "auth.uid != null",
+		"create": "auth.uid != null",
+		"update": "auth.uid != null",
+		"delete": "auth.uid != null"
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"user_id": {
+			"title": "用户ID",
+			"bsonType": "string",
+			"description": "用户id，参考uni-id-users表",
+			"foreignKey": "uni-id-users._id",
+			"defaultValue": {
+				"$env": "uid"
+			}
+		},
+		"total_fee": {
+			"title": "订单总金额",
+			"bsonType": "int",
+			"description": "订单总金额，单位为分，100等于1元"
+		},
+		"custom": {
+			"title": "自定义数据",
+			"bsonType": "object",
+			"description": "自定义数据（用户自定义数据）"
+		},
+		"order_no": {
+			"title": "业务系统订单号",
+			"bsonType": "string",
+			"minLength": 20,
+			"maxLength": 28,
+			"description": "业务系统订单号，控制在20-28位（不可以是24位,24位在阿里云空间可能会有问题，可重复，代表1个业务订单会有多次付款的情况）",
+			"trim": "both"
+		},
+		"type": {
+			"title": "订单类型",
+			"bsonType": "string",
+			"description": "订单类型 test：订单付款  等等，可自定义",
+			"trim": "both"
+		},
+		"status": {
+			"title": "订单状态",
+			"bsonType": "int",
+			"enum": [{
+					"text": "已关闭",
+					"value": -1
+				},
+				{
+					"text": "未支付",
+					"value": 0
+				},
+				{
+					"text": "已支付",
+					"value": 1
+				},
+				{
+					"text": "已部分退款",
+					"value": 2
+				},
+				{
+					"text": "已全额退款",
+					"value": 3
+				}
+			],
+			"description": "订单状态 -1 已关闭 0：未支付 1：已支付 2：已部分退款 3：已全额退款",
+			"defaultValue": 0
+		},
+		"create_date": {
+			"title": "创建时间",
+			"bsonType": "timestamp",
+			"description": "创建时间",
+			"forceDefaultValue": {
+				"$env": "now"
+			}
+		},
+		"pay_date": {
+			"title": "支付时间",
+			"bsonType": "timestamp",
+			"description": "支付时间"
+		}
+	}
+}

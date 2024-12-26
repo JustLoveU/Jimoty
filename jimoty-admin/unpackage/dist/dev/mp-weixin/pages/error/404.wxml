@@ -1,0 +1,1 @@
+<view><view><text style="font-size:25px;color:#333"> 404 页面未找到 </text></view><view><text style="font-size:18px;color:#999">{{a}}</text></view><fix-window u-i="07a5e50e-0" bind:__l="__l"/></view>

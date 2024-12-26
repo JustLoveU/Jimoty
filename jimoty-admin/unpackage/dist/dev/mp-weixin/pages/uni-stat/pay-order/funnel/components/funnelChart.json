@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "uni-stat-tabs": "../../../../../components/uni-stat-tabs/uni-stat-tabs",
+    "uni-datetime-picker": "../../../../../uni_modules/uni-datetime-picker/components/uni-datetime-picker/uni-datetime-picker",
+    "qiun-data-charts": "../../../../../uni_modules/qiun-data-charts/components/qiun-data-charts/qiun-data-charts"
+  }
+}

@@ -1,0 +1,11 @@
+
+.uni-stat-edit--x {
+		display: flex;
+		justify-content: space-between;
+}
+.uni-stat-edit--btn {
+		cursor: pointer;
+}
+.uni-stat-right-btn{
+		text-align: right;margin-bottom: 10px;
+}

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "意见反馈",
+  "usingComponents": {
+    "uni-title": "../../uni_modules/uni-title/components/uni-title/uni-title"
+  }
+}

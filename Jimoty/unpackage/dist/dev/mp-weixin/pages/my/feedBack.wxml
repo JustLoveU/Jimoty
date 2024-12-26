@@ -1,0 +1,1 @@
+<view><uni-title wx:if="{{a}}" u-i="c7ca976c-0" bind:__l="__l" u-p="{{a}}"></uni-title><view class="image-box" bindtap="{{c}}"><image class="img" src="{{b}}" mode="aspectFill"></image></view><view class="my-btu-bottom"><button style="" open-type="contact" type="primary">联系客服</button></view></view>

@@ -1,0 +1,59 @@
+// 文档教程: https://uniapp.dcloud.net.cn/uniCloud/schema
+{
+	"bsonType": "object",
+	"required": ["daojuUserId", "daojuPostId"],
+	"permission": {
+		"read": "auth.uid != null",
+		"create": "auth.uid != null",
+		"update": "auth.uid != null",
+		"delete": "auth.uid != null"
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"daojuUserId": {
+			"title": "道具使用者",
+			"description": "道具使用者",
+			"bsonType": "string",
+			"foreignKey": "uni-id-users._id",
+			"defaultValue": {
+				"$env": "uid"
+			}
+		},
+		"daojuPostId": {
+			"title": "被使用的投稿",
+			"description": "被使用的投稿",
+			"bsonType": "string",
+			"foreignKey": "jimoty-post._id"
+		},
+		"daojuType": {
+			"title": "道具类型",
+			"description": "0置顶，1高亮，2刷新,3定期刷新",
+			"bsonType": "int"
+		},
+		"end_date": {
+			"bsonType": "timestamp",
+			"description": "道具到期时间戳"
+		},
+		"delete": {
+			"bsonType": "bool",
+			"description": "是否用完",
+			"defaultValue": false
+		},
+		"create_date": {
+			"bsonType": "timestamp",
+			"description": "使用的时间戳",
+			"forceDefaultValue": {
+				"$env": "now"
+			}
+		},
+		"update_date": {
+			"bsonType": "timestamp",
+			"description": "最近更新的时间戳",
+			"forceDefaultValue": {
+				"$env": "now"
+			}
+		}
+	}
+}

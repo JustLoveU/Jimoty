@@ -1,0 +1,69 @@
+// 文档教程: https://uniapp.dcloud.net.cn/uniCloud/schema
+{
+	"bsonType": "object",
+	"required": ["post_id", "user_id", "re_user_id", "content", "type"],
+	"permission": {
+		"read": true,
+		"create": "auth.uid != null",
+		"update": "doc.send_user_id == auth.uid",
+		"delete": "doc.send_user_id == auth.uid"
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"send_user_id": {
+			"title": "评论者的uid",
+			"bsonType": "string",
+			"description": "评论者的uid，参考 uni-id-users 表",
+			"foreignKey": "uni-id-users._id",
+			"defaultValue": {
+				"$env": "uid"
+			}
+		},
+		"re_user_id": {
+			"title": "被评论者的uid",
+			"bsonType": "string",
+			"description": "被评论者的uid，参考 uni-id-users 表",
+			"foreignKey": "uni-id-users._id"
+		},
+		"post_id": {
+			"title": "被评论的帖子",
+			"bsonType": "string",
+			"description": "被评论的帖子",
+			"foreignKey": "jimoty-post._id"
+		},
+		"type": {
+			"bsonType": "int",
+			"description": "评论类型(0好评1一般2差评)",
+			"title": "评论类型"
+		},
+		"content": {
+			"bsonType": "string",
+			"description": "评论内容",
+			"title": "评论内容",
+			"trim": "both"
+		},
+		"read_over": {
+			"title": "是否已阅",
+			"bsonType": "bool",
+			"description": "是否已阅",
+			"forceDefaultValue": false
+		},
+		"create_date": {
+			"title": "评论发表时间",
+			"bsonType": "timestamp",
+			"description": "评论发表时间",
+			"defaultValue": {
+				"$env": "now"
+			}
+		},
+		"publish_ip": {
+			"bsonType": "string",
+			"description": "评论发表时，客户端的 IP 地址",
+			"forceDefaultValue": {
+				"$env": "clientIP"
+			}
+		}
+	}
+}

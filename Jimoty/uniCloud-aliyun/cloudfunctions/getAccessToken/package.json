@@ -1,0 +1,7 @@
+{
+  "name": "getAccessToken",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

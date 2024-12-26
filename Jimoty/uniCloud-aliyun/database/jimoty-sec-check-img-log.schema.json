@@ -1,0 +1,41 @@
+// 文档教程: https://uniapp.dcloud.net.cn/uniCloud/schema
+{
+	"bsonType": "object",
+	"required": ["verify_id", "picurl", "state"],
+	"permission": {
+		"read": true,
+		"create": "auth.uid != null",
+		"update": "auth.uid != null",
+		"delete": "auth.uid != null"
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"verify_id": {
+			"title": "业务id",
+			"bsonType": "string"
+		},
+		"traceId": {
+			"title": "唯一标识id",
+			"bsonType": "string"
+		},
+		"picurl": {
+			"title": "图片",
+			"bsonType": "string"
+		},
+		"state": {
+			"title": "图片状态",
+			"bsonType": "int",
+			"description": "0待审核 1通过 2未通过"
+		},
+		"publish_date": {
+			"title": "提交审核时间",
+			"bsonType": "timestamp",
+			"description": "提交审核时间",
+			"forceDefaultValue": {
+				"$env": "now"
+			}
+		}
+	}
+}

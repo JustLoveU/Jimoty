@@ -1,0 +1,1 @@
+<view class="container data-v-d10efb47">{{a}}--------------{{b}} <view class="data-v-d10efb47"/> {{c}} <button class="data-v-d10efb47" bindtap="{{d}}">发送</button></view>

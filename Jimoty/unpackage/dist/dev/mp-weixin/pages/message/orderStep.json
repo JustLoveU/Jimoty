@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "uni-steps": "../../uni_modules/uni-steps/components/uni-steps/uni-steps",
+    "uni-list-item": "../../uni_modules/uni-list/components/uni-list-item/uni-list-item",
+    "uni-list": "../../uni_modules/uni-list/components/uni-list/uni-list",
+    "uni-load-more": "../../uni_modules/uni-load-more/components/uni-load-more/uni-load-more"
+  }
+}

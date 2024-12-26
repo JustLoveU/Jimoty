@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "消息",
+  "disableScroll": true,
+  "usingComponents": {
+    "page1": "./components/page1",
+    "page2": "./components/page2",
+    "page3": "./components/page3"
+  }
+}

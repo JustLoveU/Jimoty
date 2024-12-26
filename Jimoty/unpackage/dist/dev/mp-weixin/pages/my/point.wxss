@@ -1,0 +1,165 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.order-center.data-v-12e7122b {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+.order-center .order-center-des.data-v-12e7122b {
+  margin-top: 20rpx;
+  color: #acacac;
+}
+.order-center .active.data-v-12e7122b {
+  color: #ffad08;
+}
+.order-time.data-v-12e7122b {
+  padding: 20rpx 0;
+  color: #acacac;
+}
+.poup-box.data-v-12e7122b {
+  padding: 20rpx;
+  padding-bottom: 50rpx;
+  height: 40vh;
+}
+.poup-box .poup-box-center.data-v-12e7122b {
+  margin-top: 30rpx;
+  padding: 0 20rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.poup-box .poup-box-center .short-btu.data-v-12e7122b {
+  width: 120rpx;
+  height: 70rpx;
+  text-align: center;
+  line-height: 70rpx;
+  border-radius: 10px;
+  border: 1px solid #cccccc;
+}
+.poup-box .poup-box-center .active.data-v-12e7122b {
+  border: 1px solid #2979ff;
+  color: #2979ff;
+  background-color: #e7f2ff;
+}
+.poup-box-bottom.data-v-12e7122b {
+  position: fixed;
+  bottom: 50rpx;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.poup-box-bottom .poup-box-bottom-btu.data-v-12e7122b {
+  width: 80%;
+  height: 80rpx;
+  font-weight: 600;
+  font-size: 32rpx;
+  color: white;
+  border-radius: 20px;
+  background-color: #2979ff;
+  box-shadow: 2rpx 3rpx 5rpx #63bcff;
+  text-align: center;
+  line-height: 80rpx;
+}
+.member-title.data-v-12e7122b {
+  padding: 20rpx;
+  font-size: 28rpx;
+  color: #515151;
+}
+.point.data-v-12e7122b {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30rpx;
+  background-color: white;
+}
+.point .point-number .number-big.data-v-12e7122b {
+  position: relative;
+  font-size: 50rpx;
+  font-weight: 600;
+}
+.point .point-number .number-big .number-small.data-v-12e7122b {
+  position: absolute;
+  width: 30rpx;
+  right: 0%;
+  bottom: 0%;
+  transform: translateX(120%);
+}
+.member-bottom-btu1.data-v-12e7122b {
+  padding: 20rpx 80rpx;
+  background-color: white;
+}
+.member-bottom-btu1 .btu1.data-v-12e7122b {
+  text-align: center;
+  line-height: 90rpx;
+  width: 100%;
+  height: 90rpx;
+  border-radius: 10rpx;
+  font-size: 38rpx;
+  margin-bottom: 40rpx;
+  background-color: #1d924e;
+  color: white;
+}
+.member-bottom-btu1 .btu1.data-v-12e7122b:active {
+  opacity: 0.7;
+}
+.member-bottom-btu2.data-v-12e7122b {
+  padding: 40rpx;
+  background-color: white;
+}
+.member-bottom-btu2 .btu2.data-v-12e7122b {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10rpx;
+  background-color: #1d924e;
+  color: white;
+  width: 100%;
+  padding: 20rpx;
+}
+.member-bottom-btu2 .btu2 .btu2-left.data-v-12e7122b {
+  width: 100rpx;
+  height: 100rpx;
+}
+.member-bottom-btu2 .btu2 .btu2-left .btu2-left-img.data-v-12e7122b {
+  width: 100rpx;
+  height: 100rpx;
+}
+.member-bottom-btu2 .btu2 .btu2-center.data-v-12e7122b {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.member-bottom-btu2 .btu2 .btu2-center .center-top.data-v-12e7122b {
+  font-size: 40rpx;
+}
+.member-bottom-btu2 .btu2 .btu2-center .center-center.data-v-12e7122b {
+  font-size: 28rpx;
+}
+.member-bottom-btu2 .btu2 .btu2-center .center-bottom.data-v-12e7122b {
+  font-size: 32rpx;
+}

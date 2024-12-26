@@ -1,0 +1,7 @@
+{
+  "enablePullDownRefresh": false,
+  "navigationBarTitleText": "城市选择",
+  "usingComponents": {
+    "uni-city-list": "../../components/uni-city-list/uni-city-list"
+  }
+}

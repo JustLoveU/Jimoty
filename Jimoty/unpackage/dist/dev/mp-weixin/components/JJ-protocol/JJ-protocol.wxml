@@ -1,0 +1,1 @@
+<view class="container data-v-900831e0"><view bindtap="{{a}}" class="{{['item-right', 'data-v-900831e0', b]}}"></view><view class="item-left data-v-900831e0" bindtap="{{c}}"> 《投稿协议》 </view></view>

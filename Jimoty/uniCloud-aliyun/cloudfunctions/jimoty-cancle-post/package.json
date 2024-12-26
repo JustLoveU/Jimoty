@@ -1,0 +1,7 @@
+{
+  "name": "jimoty-cancle-post",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

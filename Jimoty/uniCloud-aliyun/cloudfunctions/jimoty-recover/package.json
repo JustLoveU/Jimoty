@@ -1,0 +1,7 @@
+{
+  "name": "jimoty-recover",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

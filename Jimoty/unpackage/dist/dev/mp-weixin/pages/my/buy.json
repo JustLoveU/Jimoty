@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "我的收获",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "uni-list-chat": "../../uni_modules/uni-list/components/uni-list-chat/uni-list-chat",
+    "uni-dateformat": "../../uni_modules/uni-dateformat/components/uni-dateformat/uni-dateformat",
+    "uni-section": "../../uni_modules/uni-section/components/uni-section/uni-section",
+    "uni-load-more": "../../uni_modules/uni-load-more/components/uni-load-more/uni-load-more"
+  }
+}

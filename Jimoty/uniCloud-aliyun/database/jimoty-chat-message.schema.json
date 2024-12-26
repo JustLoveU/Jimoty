@@ -1,0 +1,64 @@
+// 文档教程: https://uniapp.dcloud.net.cn/uniCloud/schema
+{
+	"bsonType": "object",
+	"required": ["chatBoxId", "userId", "friendId"],
+	"permission": {
+		"read": "auth.uid == doc.userId || auth.uid == doc.friendId",
+		"create": "auth.uid != null",
+		"update": "auth.uid == doc.userId || auth.uid == doc.friendId",
+		"delete": "auth.uid == doc.userId"
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"chatBoxId": {
+			"title": "消息框id",
+			"bsonType": "string",
+			"description": "消息所在的消息框",
+			"foreignKey": "jimoty-chat._id"
+		},
+		"userId": {
+			"title": "消息发送方",
+			"bsonType": "string",
+			"description": "消息发送方 UserID（用于指定发送消息方帐号）",
+			"foreignKey": "uni-id-users._id"
+		},
+		"friendId": {
+			"title": "消息接收方",
+			"description": "消息接收方 UserID",
+			"bsonType": "string",
+			"foreignKey": "uni-id-users._id"
+		},
+		"status": {
+			"title": "是否已读",
+			"description": "是否已读",
+			"bsonType": "bool",
+			"defaultValue": false
+		},
+		"message": {
+			"bsonType": "string",
+			"title": "消息内容",
+			"description": "消息内容"
+		},
+		"type": {
+			"bsonType": "int",
+			"title": "消息类型",
+			"description": "消息内容（0文字，1图片链接，2音频链接，3地图,4系统消息）"
+		},
+		"delete": {
+			"title": "是否删除",
+			"description": "是否删除",
+			"bsonType": "bool",
+			"forceDefaultValue": false
+		},
+		"time": {
+			"title": "消息创建时间",
+			"bsonType": "timestamp",
+			"description": "消息框创建时间",
+			"forceDefaultValue": {
+				"$env": "now"
+			}
+		}
+	}
+}

@@ -1,0 +1,44 @@
+// 文档教程: https://uniapp.dcloud.net.cn/uniCloud/schema
+{
+	"bsonType": "object",
+	"required": ["good_name", "good_price", "good_type"],
+	"permission": {
+		"read": "auth.uid != null",
+		"create": "auth.uid != null",
+		"update": "auth.uid != null",
+		"delete": "auth.uid != null"
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"good_name": {
+			"title": "商品名字",
+			"description": "商品名字",
+			"bsonType": "string"
+		},
+		"good_price": {
+			"title": "商品价格",
+			"description": "商品价格",
+			"bsonType": "int"
+		},
+		"good_type": {
+			"title": "道具类型",
+			"description": "道具类型 0置顶，1高亮，2刷新,3定期刷新",
+			"bsonType": "int"
+		},
+		"good_image": {
+			"title": "道具图片",
+			"description": "道具图片",
+			"bsonType": "string"
+		},
+		"create_date": {
+			"title": "创建时间",
+			"bsonType": "timestamp",
+			"description": "创建时间",
+			"forceDefaultValue": {
+				"$env": "now"
+			}
+		}
+	}
+}

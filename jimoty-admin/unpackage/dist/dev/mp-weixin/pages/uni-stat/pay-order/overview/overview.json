@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "订单概况",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "stat-panel-total": "./components/statPanelTotal",
+    "stat-panel-today": "./components/statPanelToday",
+    "trend-chart": "./components/trendChart",
+    "uni-stat-breadcrumb": "../../../../components/uni-stat-breadcrumb/uni-stat-breadcrumb",
+    "uni-data-select": "../../../../uni_modules/uni-data-select/components/uni-data-select/uni-data-select",
+    "uni-stat-tabs": "../../../../components/uni-stat-tabs/uni-stat-tabs",
+    "fix-window": "../../../../components/fix-window/fix-window"
+  }
+}

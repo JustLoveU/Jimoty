@@ -1,0 +1,33 @@
+{
+	"passwordSecret": [{
+		"type": "hmac-sha256",
+		"version": 1
+	}],
+	"passwordStrength": "medium",
+	"tokenSecret": "chuangxiang",
+	"requestAuthSecret": "",
+	"tokenExpiresIn": 72000,
+	"tokenExpiresThreshold": 36000,
+	"maxTokenLength": 10,
+	"passwordErrorLimit": 6,
+	"passwordErrorRetryTime": 3600,
+	"autoSetInviteCode": false,
+	"forceInviteCode": false,
+	"idCardCertifyLimit": 1,
+	"realNameCertifyLimit": 5,
+	"sensitiveInfoEncryptSecret": "",
+	"frvNeedAlivePhoto": false,
+	"userRegisterDefaultRole": [],
+
+	"mp-weixin": {
+		"dcloudAppid": "__UNI__61206C3",
+		"tokenExpiresIn": 25920000,
+		"tokenExpiresThreshold": 86400,
+		"oauth": {
+			"weixin": {
+				"appid": "wx593287587cccdf0f",
+				"appsecret": "41fb92f13d1fb000b74b8f90392d9478"
+			}
+		}
+	}
+}

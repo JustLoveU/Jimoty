@@ -1,0 +1,68 @@
+// 文档教程: https://uniapp.dcloud.net.cn/uniCloud/schema
+{
+	"bsonType": "object",
+	"required": ["userId", "friendId", "postId"],
+	"permission": {
+		"read": "auth.uid == doc.userId || auth.uid == doc.friendId",
+		"create": "auth.uid != null",
+		"update": "auth.uid == doc.userId || auth.uid == doc.friendId",
+		"delete": "auth.uid == doc.userId"
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"userId": {
+			"title": "消息框创建者",
+			"bsonType": "string",
+			"description": "消息发送方 UserID（用于指定发送消息方帐号）",
+			"foreignKey": "uni-id-users._id"
+		},
+		"friendId": {
+			"title": "消息框接收方",
+			"description": "消息接收方 UserID",
+			"bsonType": "string",
+			"foreignKey": "uni-id-users._id"
+		},
+		"postId": {
+			"title": "讨论的商品",
+			"description": "讨论的商品 postId",
+			"bsonType": "string",
+			"foreignKey": "jimoty-post._id"
+		},
+		"step": {
+			"bsonType": "int",
+			"title": "交易状态",
+			"description": "交易状态(0交易前1协商3完成4取消5结束)",
+			"defaultValue": 0
+		},
+		"isShow": {
+			"title": "是否表示",
+			"description": "是否表示(0不表示1表示)",
+			"bsonType": "int",
+			"defaultValue": 1
+		},
+		"delete": {
+			"title": "是否删除",
+			"description": "是否删除",
+			"bsonType": "bool",
+			"forceDefaultValue": false
+		},
+		"create_date": {
+			"title": "消息框创建时间",
+			"bsonType": "timestamp",
+			"description": "消息框创建时间",
+			"forceDefaultValue": {
+				"$env": "now"
+			}
+		},
+		"update_date": {
+			"title": "消息更新时间",
+			"bsonType": "timestamp",
+			"description": "消息更新时间",
+			"defaultValue": {
+				"$env": "now"
+			}
+		}
+	}
+}

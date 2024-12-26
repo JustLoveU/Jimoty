@@ -1,0 +1,30 @@
+// 文档教程: https://uniapp.dcloud.net.cn/uniCloud/schema
+{
+	"bsonType": "object",
+	"required": ["access_token"],
+	"permission": {
+		"read": "auth.uid != null",
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"access_token": {
+			"title": "access_token",
+			"bsonType": "string",
+			"description": "access_token"
+		},
+		"create_date": {
+			"title": "创建时间",
+			"bsonType": "timestamp",
+			"description": "创建时间",
+			"defaultValue": {
+				"$env": "now"
+			}
+		}
+
+	}
+}

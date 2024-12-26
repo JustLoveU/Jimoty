@@ -1,0 +1,36 @@
+
+.uni-stat-card-header {
+		display: flex;
+		justify-content: space-between;
+		color: #555;
+		font-size: 14px;
+		font-weight: 600;
+		padding: 10px 0;
+		margin-bottom: 15px;
+}
+.uni-table-scroll {
+		min-height: auto;
+}
+.link-btn-color {
+		color: #007AFF;
+		cursor: pointer;
+}
+.uni-stat-text {
+		color: #606266;
+}
+.mt10 {
+		margin-top: 10px;
+}
+.uni-radio-cell {
+		margin: 0 10px;
+}
+.uni-stat-tooltip-s {
+		width: 400px;
+		white-space: normal;
+}
+.uni-a {
+		cursor: pointer;
+		text-decoration: underline;
+		color: #555;
+		font-size: 14px;
+}

@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "漏斗分析",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "funnel-chart": "./components/funnelChart",
+    "trend-chart": "./components/trendChart",
+    "uni-stat-breadcrumb": "../../../../components/uni-stat-breadcrumb/uni-stat-breadcrumb",
+    "uni-data-select": "../../../../uni_modules/uni-data-select/components/uni-data-select/uni-data-select",
+    "uni-stat-tabs": "../../../../components/uni-stat-tabs/uni-stat-tabs",
+    "fix-window": "../../../../components/fix-window/fix-window"
+  }
+}

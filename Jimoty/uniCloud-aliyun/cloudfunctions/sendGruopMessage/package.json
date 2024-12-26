@@ -1,0 +1,7 @@
+{
+  "name": "sendGruopMessage",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

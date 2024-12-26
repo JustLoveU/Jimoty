@@ -1,0 +1,1 @@
+<view><web-view wx:if="{{a}}" src="{{b}}" title="投稿协议"></web-view></view>

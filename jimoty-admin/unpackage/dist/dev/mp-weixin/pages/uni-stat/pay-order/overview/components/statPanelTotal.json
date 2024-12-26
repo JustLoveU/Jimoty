@@ -1,0 +1,11 @@
+{
+  "component": true,
+  "usingComponents": {
+    "uni-th": "../../../../../uni_modules/uni-table/components/uni-th/uni-th",
+    "uni-tr": "../../../../../uni_modules/uni-table/components/uni-tr/uni-tr",
+    "uni-icons": "../../../../../uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "uni-tooltip": "../../../../../uni_modules/uni-tooltip/components/uni-tooltip/uni-tooltip",
+    "uni-td": "../../../../../uni_modules/uni-table/components/uni-td/uni-td",
+    "uni-table": "../../../../../uni_modules/uni-table/components/uni-table/uni-table"
+  }
+}

@@ -1,0 +1,65 @@
+// 文档教程: https://uniapp.dcloud.net.cn/uniCloud/schema
+{
+	"bsonType": "object",
+	"required": ["city"],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"city": {
+			"title": "城市",
+			"description": "城市",
+			"bsonType": "string"
+		},
+		"type1": {
+			"title": "社交",
+			"description": "社交",
+			"bsonType": "bool",
+			"defaultValue": false
+		},
+		"type2": {
+			"title": "兼职",
+			"description": "兼职",
+			"bsonType": "bool",
+			"defaultValue": false
+		},
+		"type3": {
+			"title": "教培",
+			"description": "教培",
+			"bsonType": "bool",
+			"defaultValue": false
+		},
+		"type4": {
+			"title": "领养",
+			"description": "领养",
+			"bsonType": "bool",
+			"defaultValue": false
+		},
+		"type5": {
+			"title": "闲置",
+			"description": "闲置",
+			"bsonType": "bool",
+			"defaultValue": false
+		},
+		"update_date": {
+			"bsonType": "timestamp",
+			"description": "更新时间戳",
+			"defaultValue": {
+				"$env": "now"
+			}
+		},
+		"create_date": {
+			"bsonType": "timestamp",
+			"description": "创建时间戳",
+			"defaultValue": {
+				"$env": "now"
+			}
+		}
+	}
+}

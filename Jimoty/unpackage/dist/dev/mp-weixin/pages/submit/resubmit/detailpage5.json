@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "投稿",
+  "usingComponents": {
+    "uni-icons": "../../../uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "j-j-protocol": "../../../components/JJ-protocol/JJ-protocol"
+  }
+}

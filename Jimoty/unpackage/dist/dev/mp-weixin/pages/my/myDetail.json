@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "主页",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "uni-rate": "../../uni_modules/uni-rate/components/uni-rate/uni-rate",
+    "uni-icons": "../../uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "home-goods": "../../components/homeGoods/homeGoods",
+    "uni-load-more": "../../uni_modules/uni-load-more/components/uni-load-more/uni-load-more"
+  }
+}

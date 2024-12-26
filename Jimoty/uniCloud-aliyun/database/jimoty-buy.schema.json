@@ -1,0 +1,46 @@
+// 文档教程: https://uniapp.dcloud.net.cn/uniCloud/schema
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": "auth.uid != null",
+		"create": "auth.uid != null",
+		"update": "auth.uid != null",
+		"delete": "auth.uid != null"
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"goodId": {
+			"title": "商品",
+			"bsonType": "string",
+			"description": "商品",
+			"foreignKey": "jimoty-post._id"
+		},
+		"buyId": {
+			"title": "买方",
+			"bsonType": "string",
+			"description": "买方",
+			"foreignKey": "uni-id-users._id"
+		},
+		"sellId": {
+			"title": "卖方",
+			"bsonType": "string",
+			"description": "卖方",
+			"foreignKey": "uni-id-users._id",
+			"forceDefaultValue": {
+				"$env": "uid"
+			}
+		},
+
+		"create_date": {
+			"title": "交易成功时间",
+			"bsonType": "timestamp",
+			"description": "交易成功时间",
+			"forceDefaultValue": {
+				"$env": "now"
+			}
+		}
+	}
+}

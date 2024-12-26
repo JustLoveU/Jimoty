@@ -1,0 +1,217 @@
+// 文档教程: https://uniapp.dcloud.net.cn/uniCloud/schema
+{
+	"bsonType": "object",
+	"required": ["userId", "type"],
+	"permission": {
+		"read": true,
+		"create": "auth.uid != null",
+		"update": "auth.uid != null",
+		"delete": "doc.userId == auth.uid || 'admin' in auth.role || 'manager' in auth.role"
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"userId": {
+			"title": "发布者",
+			"description": "发布者",
+			"bsonType": "string",
+			"foreignKey": "uni-id-users._id",
+			"forceDefaultValue": {
+				"$env": "uid"
+			}
+		},
+		"type": {
+			"title": "类目",
+			"description": "类目(1社交，2兼职，3教培，4领养，5闲置)",
+			"bsonType": "int"
+
+		},
+
+		"category": {
+			"title": "类别",
+			"description": "发布者",
+			"bsonType": "string",
+			"foreignKey": "jimoty-category._id"
+		},
+		"photos": {
+			"title": "图片",
+			"description": "图片",
+			"bsonType": "array"
+		},
+		"point": {
+			"title": "地理位置",
+			"bsonType": "array",
+			"description": "地理位置（经纬度）"
+		},
+		"location": {
+			"title": "地理位置",
+			"bsonType": "object",
+			"description": "地理位置（城市和具体地址）"
+		},
+
+		"recruitAge": {
+			"title": "招募年龄",
+			"description": "招募年龄",
+			"bsonType": "string"
+		},
+
+		"noteTitle": {
+			"title": "标题",
+			"description": "标题",
+			"bsonType": "string",
+			"trim": "both",
+			"minLength": 1,
+			"maxLength": 255
+		},
+		"mainText": {
+			"title": "正文",
+			"description": "正文",
+			"bsonType": "string",
+			"trim": "both",
+			"minLength": 1,
+			"maxLength": 15000
+		},
+		"companyName": {
+			"title": "公司名",
+			"description": "公司名",
+			"bsonType": "string"
+		},
+		"payrollForm": {
+			"title": "工资形式",
+			"description": "工资形式",
+			"bsonType": "string"
+		},
+		"salary": {
+			"title": "薪资",
+			"description": "薪资",
+			"bsonType": "string"
+		},
+		"salarySupplement": {
+			"title": "工资补充",
+			"description": "工资补充",
+			"bsonType": "string"
+		},
+		"traffic": {
+			"title": "交通",
+			"description": "交通",
+			"bsonType": "string"
+		},
+		"workTime": {
+			"title": "工作时间",
+			"description": "工作时间",
+			"bsonType": "string"
+		},
+		"workPosition": {
+			"title": "工作地点",
+			"description": "工作地点",
+			"bsonType": "string"
+		},
+		"phone": {
+			"title": "电话",
+			"description": "电话",
+			"bsonType": "string",
+			"pattern": "^\\+?[0-9-]{3,20}$"
+		},
+		"employeeForm": {
+			"title": "雇佣形式",
+			"description": "雇佣形式",
+			"bsonType": "string"
+		},
+		"sex": {
+			"title": "性别",
+			"description": "性别(男,女,不限制)",
+			"bsonType": "string"
+		},
+		"age": {
+			"title": "年龄",
+			"description": "年龄（6年7月）",
+			"bsonType": "string"
+		},
+		"sterOperation": {
+			"title": "绝育手术",
+			"description": "绝育手术",
+			"bsonType": "string"
+		},
+		"vaccinelnoculation": {
+			"title": "疫苗接种",
+			"description": "疫苗接种",
+			"bsonType": "string"
+		},
+		"releaseReason": {
+			"title": "投稿理由",
+			"description": "投稿理由",
+			"bsonType": "string"
+		},
+
+		"payMethod": {
+			"title": "支付方式",
+			"description": "支付方式(0线下1线上)",
+			"bsonType": "int",
+			"defaultValue": 0
+		},
+		"postPrice": {
+			"title": "商品价格",
+			"description": "商品价格",
+			"bsonType": "string"
+		},
+		"status": {
+			"title": "帖子状态",
+			"description": "帖子状态(0待审核1草稿2审核通过3审核不通过4已结束5交易中)",
+			"bsonType": "int",
+			"defaultValue": 0
+		},
+		"delete": {
+			"title": "逻辑删除",
+			"description": "逻辑删除(0删除，1未删除)",
+			"bsonType": "int",
+			"defaultValue": 1
+		},
+		"browse": {
+			"title": "浏览数",
+			"description": "浏览数",
+			"bsonType": "int",
+			"defaultValue": 0
+		},
+		"weight": {
+			"title": "权重",
+			"description": "权重",
+			"bsonType": "int",
+			"defaultValue": 100
+		},
+		"collect": {
+			"title": "收藏数",
+			"description": "收藏数",
+			"bsonType": "int",
+			"defaultValue": 0
+		},
+		"hightLight": {
+			"title": "高亮",
+			"description": "高亮",
+			"bsonType": "bool",
+			"defaultValue": false
+		},
+		"create_date": {
+			"bsonType": "timestamp",
+			"description": "发送时间戳",
+			"forceDefaultValue": {
+				"$env": "now"
+			}
+		},
+		"update_date": {
+			"bsonType": "timestamp",
+			"description": "更新时间戳",
+			"forceDefaultValue": {
+				"$env": "now"
+			}
+		},
+		"ip": {
+			"title": "IP 地址",
+			"bsonType": "string",
+			"description": "发帖的 IP 地址",
+			"forceDefaultValue": {
+				"$env": "clientIP"
+			}
+		}
+	}
+}

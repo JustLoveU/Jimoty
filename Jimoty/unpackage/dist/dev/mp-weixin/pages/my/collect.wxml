@@ -1,0 +1,1 @@
+<view class="container"><view wx:if="{{a}}"><home-goods wx:if="{{b}}" u-i="2c4e2c95-0" bind:__l="__l" u-p="{{b}}"></home-goods></view><uni-load-more wx:else u-i="2c4e2c95-1" bind:__l="__l" u-p="{{c||''}}"/></view>
